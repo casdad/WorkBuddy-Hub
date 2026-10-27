@@ -1,0 +1,7 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+httpx>=0.27,<1
+cryptography>=44,<51
+qrcode>=8,<9
+pillow>=11,<14
+pystray>=0.19,<1

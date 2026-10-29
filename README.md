@@ -4,6 +4,38 @@ Windows 本地运行的 WorkBuddy 国内版账号、API、额度与日志管理�
 
 当前版本 **0.1.3**，相对 0.1.2 的变更见 [CHANGES.md](CHANGES.md)；0.1.1 的外部审查逐项核验与不采纳理由见 [REVIEW-RESPONSE.md](REVIEW-RESPONSE.md)。
 
+## 界面预览
+
+<p align="center">
+  <img src="./docs/images/01-overview.png" alt="WorkBuddy Hub 总览界面" width="900">
+</p>
+
+<p align="center"><em>总览：查看账号状态、剩余积分、请求趋势与异常提醒</em></p>
+
+<p align="center">
+  <img src="./docs/images/02-account-management.png" alt="WorkBuddy Hub 账号管理界面" width="900">
+</p>
+
+<p align="center"><em>账号管理：集中查看授权状态、剩余积分与账号并发</em></p>
+
+<p align="center">
+  <img src="./docs/images/03-model-mapping.png" alt="WorkBuddy Hub 模型映射界面" width="900">
+</p>
+
+<p align="center"><em>模型中心：查看可用模型并配置模型映射</em></p>
+
+<p align="center">
+  <img src="./docs/images/04-usage-logs.png" alt="WorkBuddy Hub 用量与日志界面" width="900">
+</p>
+
+<p align="center"><em>用量与日志：查看 Token、积分、模型与端点分布</em></p>
+
+<p align="center">
+  <img src="./docs/images/05-chat-test.png" alt="WorkBuddy Hub 对话测试界面" width="900">
+</p>
+
+<p align="center"><em>对话测试：确认 API 连接与模型响应正常</em></p>
+
 ## 快速开始
 
 在当前项目双击 `start.bat`。存在 Python 虚拟环境时以**源码**方式启动（开发目录的默认行为）；没有虚拟环境时回退到 `dist\WorkBuddyHub.exe`。两种方式都使用本项目 `data/` 目录，保留已经授权的账号。
